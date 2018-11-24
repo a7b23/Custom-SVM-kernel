@@ -6,7 +6,7 @@ The discovered kernel function is :-
 ```
 k(x,y) = ||min{sin(x*y), sin(<x,y>/gamma)}|| 
 ```
-Here (x*y) denotes the elementise product and <x,y> denotes the dot product of vectors and the norm is L-1 norm. Also, gamma is a constant, that is equal to the number of features in the data(784 for MNIST).
+Here (x*y) denotes the elementise product, <x,y> denotes the dot product of vectors and the norm is L-1 norm. Also, gamma is a constant, that is equal to the number of features in the data(784 for MNIST).
 
 The final results below are the accuracy for the entire 10000 test samples of MNIST.  
 
