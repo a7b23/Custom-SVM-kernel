@@ -37,5 +37,5 @@ The below are the test accuracy results when the diffferent kernle functions are
 |------------|----------|
 |     Linear |    89.87   |
 |     RBF   |  87.85   |
-|     Sigmoid    84.94  |
+|     Sigmoid  |  84.94  |
 |  Discovered kernel |  **93.12** |
