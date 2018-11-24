@@ -28,3 +28,4 @@ To evaluate the trained model uncomment the two lines [here](https://github.com/
 ```
 python3 mnist_kernel_test_final.py
 ```
+Running mnist_kernel_test_final.py currently will show the results corresponding to the discovered custom kernel function.
