@@ -15,4 +15,4 @@ The final results below are the accuracy for the entire 10000 test samples of MN
 |     Linear    |  89.0    |   87.96   |
 |     RBF   |  86.4  |  82.76   |
 |     Sigmoid   |  81.0 |   74.42  |
-|  Discovered kernel | ** 90.2 ** | ** 91.01 ** |
+|  Discovered kernel | **90.2** | **91.01** |
