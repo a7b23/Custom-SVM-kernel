@@ -23,7 +23,7 @@ To train the RNN controller that learns the custom kernel function run -
 python3 mnist_kernel_search.py
 ```
 
-To evaluate the trained model uncomment [this](https://github.com/neuralCollab/Custom-SVM-kernel/blob/master/mnist_kernel_test_final.py#L295) line to restore your trained model and then run - 
+To evaluate the trained model uncomment the two lines [here](https://github.com/neuralCollab/Custom-SVM-kernel/blob/master/mnist_kernel_test_final.py#L295) to restore your trained model and then run - 
 
 ```
 python3 mnist_kernel_test_final.py
