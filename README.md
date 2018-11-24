@@ -34,8 +34,8 @@ Even though the RNN controller has been trained to learn a kernel function that 
 The below are the test accuracy results when the diffferent kernle functions are used to train SVM over 2000 samples.
 
 |  Kernel function | Test Acc.    |
-|------------|----------|----------|
-|     Linear     89.87   |
+|------------|----------|
+|     Linear |    89.87   |
 |     RBF   |  87.85   |
 |     Sigmoid    84.94  |
-|  Discovered kernel  **93.12** |
+|  Discovered kernel |  **93.12** |
