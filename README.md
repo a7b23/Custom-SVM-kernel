@@ -16,3 +16,15 @@ The final results below are the accuracy for the entire 10000 test samples of MN
 |     RBF   |  86.4  |  82.76   |
 |     Sigmoid   |  81.0 |   74.42  |
 |  Discovered kernel | **90.2** | **91.01** |
+
+
+To train the RNN controller that learns the custom kernel function run - 
+```
+python3 mnist_kernel_search.py
+```
+
+To evaluate the trained model uncomment [this](https://github.com/neuralCollab/Custom-SVM-kernel/blob/master/mnist_kernel_test_final.py#L295) line to restore your trained model and then run - 
+
+```
+python3 mnist_kernel_test_final.py
+```
