@@ -288,10 +288,11 @@ for kernel in kernels :
 	print(np.mean(predictions == test_label),'normal test acc')
 
 
-saver.restore(sess,'models/model_9000')
+
 
 
 a = [6, 6, 2, 7, 0, 6, 7, 5, 7, 4]
+# saver.restore(sess,'models/model_9000')
 # a = sess.run(model.action_out, feed_dict = {model.inputs : np.array([len(binaryOps)])})
 total_correct = 0
 k_matrix = CustomKernelGramMatrix(train_train_x, train_train_y, a, len(train_data), len(train_data))
