@@ -1,6 +1,6 @@
 # Improving Classification Performance of Support Vector Machines via Guided Custom Kernel Search
 This work builds upon the Neural Architecture Search (NAS) technique to find a custom kernel function for the SVM over MNIST dataset.  
-1000 samples are used to train the SVM while the reward for the controller is the accuracy over a validation set of 500 samples.  
+1000 samples are used to train the SVM while the reward for the RNN controller is the accuracy over a validation set of 500 samples.  
 
 The discovered kernel function is :-
 ```
