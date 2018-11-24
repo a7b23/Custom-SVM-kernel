@@ -1,6 +1,6 @@
 # Improving Classification Performance of Support Vector Machines via Guided Custom Kernel Search
 This work builds upon the Neural Architecture Search (NAS) technique to find a custom kernel function for the SVM over MNIST dataset.  
-An RNN controller emits a kernel function for SVM. The SVM with the emitted kernel function is trained over 1000 MNIST training samples and the accuracy over a seperate 500 validation samples is used as a reward ffor the RNN controller. The RNN controller is trained via the vanilla policy gradient algorithm.
+An RNN controller emits a kernel function for SVM. The SVM with the emitted kernel function is trained over 1000 MNIST training samples and the accuracy over a seperate 500 validation samples is used as a reward signal for the RNN controller. The RNN controller is trained via the vanilla policy gradient algorithm.
 
 The final discovered kernel function by the controller is :-
 ```
