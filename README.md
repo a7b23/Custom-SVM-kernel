@@ -4,9 +4,15 @@ The repo builds upon the Neural Architecture Search(NAS) technique to find a ker
 
 The discovered kernel function is :-
 ```
-k(x,y) = ||min(sin(x*y), sin(<x,y>/gamma))||<sub>1</sub>.  
+k(x,y) = ||min{sin(x*y), sin(<x,y>/gamma)}||<sub>1</sub>.  
 ```
 Here (x*y) denotes the elementise product and <x,y> denotes the dot product of vectors. Also, gamma is a constant, that is equal to the number of features in the data(784 for MNIST).
 
 The final results below are the accuracy for the entire 10000 test samples of MNIST.  
 
+|  Kernel function |   Validation Acc.   |  Test Acc.    |
+|------------|----------|----------|
+|     Linear    |  89.0    |   87.96   |
+|     RBF   |  86.4  |  82.76   |
+|     Sigmoid   |  81.0 |   74.42  |
+|  Discovered kernel | 90.2 | 91.01 |
