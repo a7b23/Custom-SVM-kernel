@@ -31,7 +31,7 @@ python3 mnist_kernel_test_final.py
 Running mnist_kernel_test_final.py currently will show the results corresponding to the above discovered custom kernel function.
 
 Even though the RNN controller has been trained to learn a kernel function that best fits the 1000 training samples, the discovered kernel function works better than the other kernel functions even when it is used to fit 2000 training samples.
-The below are the test accuracy results when the diffferent kernle functions are used to train SVM over 2000 samples.
+The below are the test accuracy results when the different kernel functions are used to train SVM over 2000 samples.
 
 |  Kernel function | Test Acc.    |
 |------------|----------|
